@@ -8,6 +8,12 @@ const style = StyleSheet.create({
         fontSize: 28,
         fontWeight: 'bold',
         marginVertical: 24,
+    },
+    thin: {
+        fontWeight: '300',
+        fontSize: 24,
+        color: colors.purple,
+        paddingHorizontal: 24,
     }
 });
 

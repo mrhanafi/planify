@@ -3,10 +3,10 @@ import { Image, Text, TextInput, TouchableOpacity } from 'react-native';
 import style from './style';
 import colors from '../../constants/colors';
 
-const Input = ({...props}) => {
+const Input = ({outlined, ...props}) => {
     return (
         <TextInput placeholderTextColor={colors.midgrey} 
-        style={style.input} 
+        style={[style.input, outlined ? style.outlined : {}]} 
         {...props} />
     );
 };
